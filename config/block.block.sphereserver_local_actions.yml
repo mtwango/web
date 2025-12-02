@@ -1,0 +1,20 @@
+uuid: 84424562-7f5b-4b9e-8c4d-3c5b163b9d1d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sphereserver
+_core:
+  default_config_hash: ABoKnlk20KHqZRw_2Qr4EvaFvH4lnQ2nuhunHeE1JIU
+id: sphereserver_local_actions
+theme: sphereserver
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

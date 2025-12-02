@@ -1,0 +1,25 @@
+uuid: f3742dd1-9ec1-4986-936d-03f2af4389b9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text_block:978501f6-8ce9-4a59-8ed7-54ce0c6ff108'
+  module:
+    - block_content
+  theme:
+    - sphereserver
+id: sphereserver_copyrightdisclaimer
+theme: sphereserver
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:978501f6-8ce9-4a59-8ed7-54ce0c6ff108'
+settings:
+  id: 'block_content:978501f6-8ce9-4a59-8ed7-54ce0c6ff108'
+  label: 'Copyright / Disclaimer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

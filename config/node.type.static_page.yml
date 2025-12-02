@@ -1,0 +1,11 @@
+uuid: d658264e-f851-4bdd-9274-3dbb5ffffdc0
+langcode: en
+status: true
+dependencies: {  }
+name: 'Static page'
+type: static_page
+description: 'Basic page'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

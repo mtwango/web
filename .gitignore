@@ -1,0 +1,26 @@
+# Ignore core + vendor.
+/htdocs/core/
+/htdocs/*.php
+/htdocs/.gitignore
+/htdocs/.htaccess
+/htdocs/sites/
+/vendor/
+/node_modules/
+
+# Ignore contrib modules and themes + libraries.
+/htdocs/libraries/
+/htdocs/modules/contrib/
+/htdocs/themes/contrib/
+/htdocs/themes/custom/sphereserver/css/
+
+# Ignore paths that contain user-generated content.
+htdocs/sites/*/files
+!/tmp/
+!/private/
+/tmp/*
+/private/*
+!/tmp/.gitkeep
+!/private/.gitkeep
+
+# Ignore IDE.
+.idea

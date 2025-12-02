@@ -1,0 +1,22 @@
+uuid: 5e721554-ec4c-4980-8887-6246f8f49dd4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sphereserver
+_core:
+  default_config_hash: aeqlWs7HwctZeZC7ADcbxfqehJzBRfZKmuZz3DsH3_4
+id: sphereserver_messages
+theme: sphereserver
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

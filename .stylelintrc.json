@@ -1,0 +1,19 @@
+{
+  "extends": "./htdocs/core/.stylelintrc.json",
+  "customSyntax": "postcss-scss",
+  "rules": {
+    "annotation-no-unknown": [true, {
+      "ignoreAnnotations": [
+        "/default/"
+      ]
+    }],
+    "function-no-unknown": [true, {
+      "ignoreFunctions": [
+        "/^darken/",
+        "/^lighten/"
+      ]
+    }],
+    "media-feature-range-notation": "prefix",
+    "value-keyword-case": null
+  }
+}

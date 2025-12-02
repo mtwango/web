@@ -1,0 +1,35 @@
+{
+  "name": "sphereserver",
+  "version": "1.0.0",
+  "description": "SphereServer node modules",
+  "main": "htdocs/index.php",
+  "scripts": {
+    "test:scss": "stylelint htdocs/modules/custom/**/*.scss htdocs/themes/custom/**/*.scss",
+    "test:js": "eslint htdocs/themes/custom/sphereserver/js/global.js",
+    "test": "npm run test:scss & npm run test:js",
+    "compile:css": "sass --no-source-map htdocs/themes/custom/sphereserver/scss:htdocs/themes/custom/sphereserver/css",
+    "install": "npm run compile:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sphereserver/web.git"
+  },
+  "author": "SphereServer",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "postcss-scss": "^4.0.9",
+    "sass": "^1.94.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-yml": "^1.19.0",
+    "prettier": "^3.6.2",
+    "stylelint": "^16.26.0",
+    "stylelint-config-standard": "^39.0.1",
+    "stylelint-order": "^7.0.0",
+    "stylelint-prettier": "^5.0.3"
+  }
+}

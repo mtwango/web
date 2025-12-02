@@ -1,0 +1,8 @@
+uuid: 1dabfac9-0c66-4e7b-8c13-6260afc4df91
+langcode: en
+status: true
+dependencies: {  }
+id: text_block
+label: 'Text block'
+revision: true
+description: 'Default textual block for content.'
