@@ -1,0 +1,77 @@
+/* Header. */
+
+.header {
+  background-color: var(--sphere-main-color);
+
+  .navbar {
+    padding: 0;
+
+    // Logo.
+    &-brand {
+      padding: 0;
+      color: var(--bs-white);
+
+      @media (max-width: 575px) {
+        padding: 0.5rem 0;
+
+        img {
+          max-height: 35px;
+        }
+      }
+    }
+
+    // Menu.
+    &-toggler {
+      color: var(--bs-white);
+      border: none;
+
+      &-icon {
+        display: none;
+      }
+
+      &::after {
+        content: "\f0c9";
+        font-family: "Font Awesome 5 Free", serif;
+        font-weight: 900;
+      }
+    }
+
+    .nav-link {
+      padding: 1.5rem 1rem;
+      color: var(--bs-white);
+
+      &.is-active,
+      &:hover {
+        color: var(--sphere-main-color);
+        background-color: var(--bs-white);
+      }
+
+      @media (max-width: 767px) {
+        padding: 1.5rem 0.75rem;
+      }
+      @media (max-width: 575px) {
+        padding: 0.75rem;
+      }
+    }
+
+
+    @media (max-width: 575px) {
+      &-nav {
+        padding-bottom: 0.75rem;
+      }
+    }
+  }
+/*
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+
+    &:hover {
+      color: #a7bcdc;
+    }
+  }*/
+}

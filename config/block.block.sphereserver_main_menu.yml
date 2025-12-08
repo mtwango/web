@@ -1,0 +1,25 @@
+uuid: 79c5d343-dfa2-4812-9847-24ae8e4bbef2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - sphereserver
+id: sphereserver_main_menu
+theme: sphereserver
+region: primary_menu
+weight: -3
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }
