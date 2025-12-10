@@ -9,8 +9,47 @@ footer {
     .block {
       border: 0;
 
-      .platforms li {
-        margin-right: 0.75rem;
+      &-social-media-links {
+        .platforms {
+          li {
+            margin-right: 0.75rem;
+
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+
+          @media (max-width: 991px) {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+          }
+        }
+
+        @media (max-width: 991px) {
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      &.menu--footer {
+        ul {
+          justify-content: center;
+          margin-top: 0.5rem;
+
+          @media (min-width: 992px) {
+            justify-content: right;
+          }
+        }
+
+        a {
+          color: #c0c0c0;
+
+          &:hover {
+            text-decoration: underline;
+            color: var(--bs-white);
+          }
+        }
       }
 
       a {
@@ -19,6 +58,20 @@ footer {
         &:hover {
           background-color: inherit;
         }
+      }
+    }
+
+    // Override menu margin/padding to be the same as normal block.
+    @media (min-width: 992px) {
+      .site-footer__top {
+        .block-menu {
+          margin: 20px 0;
+          padding: 10px;
+        }
+      }
+
+      .site-footer__bottom {
+        margin-top: 0;
       }
     }
   }

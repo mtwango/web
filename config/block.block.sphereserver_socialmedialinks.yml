@@ -46,16 +46,16 @@ settings:
       value: ''
       description: ''
       weight: '-42'
-    github:
-      value: SphereServer
+    facebook:
+      value: ''
       description: ''
       weight: '-41'
-    facebook:
-      value: Spherecommunity
-      description: ''
-      weight: '-40'
     flickr:
       value: ''
+      description: ''
+      weight: '-40'
+    github:
+      value: SphereServer
       description: ''
       weight: '-39'
     gitlab:
@@ -130,27 +130,27 @@ settings:
       value: ''
       description: ''
       weight: '-21'
-    twitter:
-      value: SphereCommunity
-      description: ''
-      weight: '-20'
     vimeo:
       value: ''
       description: ''
-      weight: '-19'
+      weight: '-20'
     vkontakte:
       value: ''
       description: ''
-      weight: '-18'
+      weight: '-19'
     website:
       value: ''
       description: ''
-      weight: '-17'
+      weight: '-18'
     whatsapp:
       value: ''
       description: ''
-      weight: '-16'
+      weight: '-17'
     whatsapp_channel:
+      value: ''
+      description: ''
+      weight: '-16'
+    twitter:
       value: ''
       description: ''
       weight: '-15'
