@@ -5,5 +5,21 @@ footer {
     background-color: var(--sphere-footer-background);
     background-image: url("/themes/custom/sphereserver/img/footer_noise.webp");
     background-repeat: repeat;
+
+    .block {
+      border: 0;
+
+      .platforms li {
+        margin-right: 1rem;
+      }
+
+      a {
+        border-bottom: 0;
+
+        &:hover {
+          background-color: inherit;
+        }
+      }
+    }
   }
 }
