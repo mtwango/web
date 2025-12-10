@@ -1,0 +1,13 @@
+/* Buttons on web. */
+
+.btn {
+  &-outline-primary {
+    color: var(--sphere-main-color);
+    border-color: var(--sphere-main-color);
+  }
+
+  &:hover {
+    border-color: var(--sphere-main-color);
+    background-color: var(--sphere-main-color);
+  }
+}

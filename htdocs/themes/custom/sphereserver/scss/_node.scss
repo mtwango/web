@@ -1,0 +1,39 @@
+/* Node content styles. */
+
+// Frontpage.
+.path-frontpage {
+  .node {
+    // Font awesome icons.
+    a.btn {
+      width: 150px;
+
+      // Icon positioning.
+      em.fa-windows::before {
+        padding-left: 15px;
+      }
+
+      // Separate script pack from releases.
+      @media (min-width: 992px) {
+        &.script-pack {
+          &::before {
+            position: absolute;
+            top: calc(50% - 25px);
+            left: -1.75rem;
+            width: 0;
+            height: 50px;
+            content: "";
+            border-left: 1px solid var(--sphere-main-color);
+          }
+        }
+      }
+
+      @media (min-width: 455px) and (max-width: 767px) {
+        width: 175px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      margin-top: 5rem;
+    }
+  }
+}
