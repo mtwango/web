@@ -8,8 +8,12 @@
       width: 150px;
 
       // Icon positioning.
-      em.fa-windows::before {
-        padding-left: 15px;
+      em {
+        margin: 0 auto;
+
+        &.fa-windows::before {
+          padding-left: 10px;
+        }
       }
 
       // Separate script pack from releases.

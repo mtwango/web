@@ -8,6 +8,11 @@ global-styling:
       css/colors.css: {}
   dependencies:
     - core/jquery
+fontawesome:
+  version: VERSION
+  css:
+    component:
+      //use.fontawesome.com/releases/v7.1.0/css/all.css: { type: external }
 bootstrap:
   js:
     /libraries/popper.js/dist/umd/popper.min.js: { weight: -19 }
