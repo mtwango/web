@@ -4,7 +4,7 @@ langcode: en
 uuid: aa01de8c-bacf-4fb3-b2c7-4605d50c6ad8
 name: 'SphereServer X'
 mail: admin@sphereserver.eu
-slogan: 'Ultima Online game server, developed in C++.'
+slogan: 'Ultima Online game server, developed in C++'
 page:
   403: ''
   404: ''
