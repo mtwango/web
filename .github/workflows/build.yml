@@ -13,6 +13,7 @@ jobs:
         uses: php-actions/composer@v6
         with:
           dev: no
+          php_version: "8.4"
           args: --profile --ignore-platform-reqs
 
       - name: Use Node.js
