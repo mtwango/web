@@ -1,0 +1,25 @@
+name: Install dependencies and run scripts.
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install composer dependencies
+        uses: php-actions/composer@v6
+        with:
+          dev: no
+          php_version: "8.4"
+          args: --profile --ignore-platform-reqs
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'
+
+      - name: Install npm dependencies
+        run: npm ci

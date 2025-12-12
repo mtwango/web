@@ -1,7 +1,6 @@
 parameters:
   level: max
   paths:
-    - htdocs/modules/custom
     - htdocs/themes/custom
   excludePaths:
     - *Test.php
@@ -9,4 +8,3 @@ parameters:
   ignoreErrors:
     -
       identifier: missingType.iterableValue
-    - '#^Unsafe usage of new static\(\)\.$#'

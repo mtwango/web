@@ -1,0 +1,44 @@
+name: Test php, css and js.
+
+on:
+  pull_request:
+    branches:
+      - 'master'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install composer dependencies
+        uses: php-actions/composer@v6
+        with:
+          php_version: "8.4"
+          args: --profile --ignore-platform-reqs
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24.x'
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Drupal coding standards
+        run: ./vendor/bin/phpcs htdocs/themes/custom --standard=Drupal --extensions=php,inc,install,module,theme,twig,yml --colors
+
+      - name: PHP compatibility test
+        run: ./vendor/bin/phpcs htdocs/themes/custom --standard=PHPcompatibility --extensions=php,inc,install,module,theme --runtime-set testVersion 8.4 --colors
+
+      - name: PHPStan test
+        run: ./vendor/bin/phpstan analyse
+
+      - name: PHP Mess Detector test
+        run: ./vendor/bin/phpmd htdocs/themes/custom text phpmd-rules.xml --suffixes php,inc,install,module,theme,info
+
+      - name: JavaScript test
+        run: npm run test:js
+
+      - name: SCSS test
+        run: npm run test:scss
