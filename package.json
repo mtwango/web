@@ -18,18 +18,19 @@
   "license": "GPL-2.0-or-later",
   "dependencies": {
     "postcss-scss": "^4.0.9",
-    "sass": "^1.94.2"
+    "sass": "^1.97.3"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.4",
-    "eslint-plugin-yml": "^1.19.0",
-    "prettier": "^3.7.3",
-    "stylelint": "^16.26.1",
-    "stylelint-config-standard": "^39.0.1",
-    "stylelint-order": "^7.0.0",
+    "eslint-plugin-jsdoc": "^62.5.4",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-yml": "^1.19.1",
+    "prettier": "^3.8.1",
+    "stylelint": "^17.2.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-order": "^7.0.1",
     "stylelint-prettier": "^5.0.3"
   }
 }

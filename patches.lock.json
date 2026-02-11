@@ -1,0 +1,17 @@
+{
+    "_hash": "49a1af1a3f021de9fcc31d1e877db379982233723df7c746a1f25db276fb3a2f",
+    "patches": {
+        "drupal/social_media_links": [
+            {
+                "package": "drupal/social_media_links",
+                "description": "Add Discord and Twitch fields (#3467542)",
+                "url": "https://git.drupalcode.org/project/social_media_links/-/merge_requests/52.patch",
+                "sha256": "be433841d847f5190d3feb31855294b2dcbbca77565bacb9c725112bd3393843",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}
