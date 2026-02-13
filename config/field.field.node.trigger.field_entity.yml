@@ -10,7 +10,7 @@ id: node.trigger.field_entity
 field_name: field_entity
 entity_type: node
 bundle: trigger
-label: Entity
+label: 'Fires on'
 description: 'Select objects, which this trigger will fire on.'
 required: true
 translatable: false
