@@ -2,3 +2,12 @@
  * @file
  * Admin theme specific CSS (loaded via helper module).
  */
+
+.node-trigger-form {
+  .field--name-field-entity {
+    .form-type--checkbox {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+  }
+}

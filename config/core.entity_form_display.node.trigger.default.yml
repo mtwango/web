@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.trigger.body
     - field.field.node.trigger.field_arguments
+    - field.field.node.trigger.field_entity
     - field.field.node.trigger.field_references
     - field.field.node.trigger.field_returns
     - node.type.trigger
@@ -19,23 +20,23 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 7
     region: content
     settings:
-      rows: 9
+      rows: 3
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
   field_arguments:
     type: paragraphs
-    weight: 123
+    weight: 10
     region: content
     settings:
       title: Paragraph
@@ -44,7 +45,7 @@ content:
       closed_mode: summary
       autocollapse: none
       closed_mode_threshold: 0
-      add_mode: dropdown
+      add_mode: button
       form_display_mode: default
       default_paragraph_type: _none
       features:
@@ -53,9 +54,15 @@ content:
         convert: '0'
         duplicate: '0'
     third_party_settings: {  }
+  field_entity:
+    type: options_buttons
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   field_references:
     type: paragraphs
-    weight: 122
+    weight: 9
     region: content
     settings:
       title: Paragraph
@@ -75,7 +82,7 @@ content:
     third_party_settings: {  }
   field_returns:
     type: paragraphs
-    weight: 124
+    weight: 11
     region: content
     settings:
       title: Paragraph
@@ -84,7 +91,7 @@ content:
       closed_mode: summary
       autocollapse: none
       closed_mode_threshold: 0
-      add_mode: dropdown
+      add_mode: button
       form_display_mode: default
       default_paragraph_type: _none
       features:
@@ -95,25 +102,25 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   simple_sitemap:
-    weight: 10
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 120
+    weight: 6
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     region: content
     settings:
       size: 60
@@ -121,7 +128,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 1
     region: content
     settings:
       match_operator: CONTAINS
@@ -130,7 +137,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   url_redirects:
-    weight: 50
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }

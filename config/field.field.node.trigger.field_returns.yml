@@ -12,7 +12,7 @@ id: node.trigger.field_returns
 field_name: field_returns
 entity_type: node
 bundle: trigger
-label: Returns
+label: 'Return values'
 description: ''
 required: false
 translatable: false

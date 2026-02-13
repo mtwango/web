@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.trigger.body
     - field.field.node.trigger.field_arguments
+    - field.field.node.trigger.field_entity
     - field.field.node.trigger.field_references
     - field.field.node.trigger.field_returns
     - node.type.trigger
@@ -22,7 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 2
     region: content
   field_arguments:
     type: entity_reference_revisions_entity_view
@@ -31,7 +32,15 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 103
+    weight: 4
+    region: content
+  field_entity:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 1
     region: content
   field_references:
     type: entity_reference_revisions_entity_view
@@ -40,7 +49,7 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 102
+    weight: 3
     region: content
   field_returns:
     type: entity_reference_revisions_entity_view
@@ -49,11 +58,11 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
-    weight: 104
+    weight: 5
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden: {  }
