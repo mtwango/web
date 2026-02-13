@@ -1,6 +1,7 @@
 parameters:
   level: max
   paths:
+    - htdocs/modules/custom
     - htdocs/themes/custom
   excludePaths:
     - *Test.php

@@ -1,0 +1,5 @@
+name: Admin styles
+description: 'Modifies the administration pages design and layout.'
+package: SphereServer
+type: module
+core_version_requirement: ^11
