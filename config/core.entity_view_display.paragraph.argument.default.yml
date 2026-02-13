@@ -17,21 +17,21 @@ mode: default
 content:
   field_description:
     type: text_default
-    label: visually_hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     weight: 2
     region: content
   field_in_out:
     type: list_default
-    label: visually_hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
   field_name:
     type: string
-    label: visually_hidden
+    label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }

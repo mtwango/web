@@ -37,3 +37,98 @@
     }
   }
 }
+
+// Triggers.
+.node--type-trigger {
+  h2,
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  // Display taxonomy references as tags.
+  .field--name-field-entity {
+    .field {
+      font-family: Roboto, sans-serif;
+
+      &__label {
+        font-weight: bold;
+
+        &::after {
+          content: ":";
+        }
+      }
+
+      &__item {
+        margin-right: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        color: var(--sphere-white-color);
+        border: 1px solid var(--sphere-main-color);
+        border-radius: 6px;
+        background-color: var(--sphere-main-color);
+
+        &:hover {
+          color: var(--sphere-main-color);
+          background-color: var(--sphere-white-color);
+        }
+      }
+    }
+  }
+
+  // Display paragraph references as "table".
+  .field--type-entity-reference-revisions {
+    margin-bottom: 2rem;
+
+    .field__items {
+      display: inline-flex;
+      flex-direction: column;
+
+      .paragraph {
+        display: flex;
+        font-family: Roboto, sans-serif;
+
+        div.field__label {
+          font-weight: bold;
+        }
+
+        p {
+          margin-bottom: 0;
+        }
+
+        > div {
+          text-align: center;
+
+          &:last-child {
+            text-align: left;
+          }
+        }
+
+        // Field formatting.
+        .field {
+          &__label,
+          &__item {
+            padding: 0.5rem;
+          }
+          &__label {
+            border-bottom: 2px solid var(--sphere-main-color);
+          }
+
+          &--name-field-name,
+          &--name-field-value,
+          &--name-field-in-out {
+            min-width: 75px;
+          }
+        }
+      }
+      > .field__item:nth-child(even) {
+        background-color: #ddd;
+      }
+
+      // Hide Entity Reference labels (except for the first one).
+      .field__item + .field__item {
+        div.field__label {
+          display: none;
+        }
+      }
+    }
+  }
+}

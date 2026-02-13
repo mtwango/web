@@ -23,7 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_arguments:
     type: entity_reference_revisions_entity_view
@@ -40,7 +40,7 @@ content:
     settings:
       link: false
     third_party_settings: {  }
-    weight: 1
+    weight: 2
     region: content
   field_references:
     type: entity_reference_revisions_entity_view

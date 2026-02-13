@@ -15,14 +15,14 @@ mode: default
 content:
   field_description:
     type: text_default
-    label: visually_hidden
+    label: above
     settings: {  }
     third_party_settings: {  }
     weight: 1
     region: content
   field_value:
     type: number_integer
-    label: visually_hidden
+    label: above
     settings:
       thousand_separator: ''
       prefix_suffix: true
