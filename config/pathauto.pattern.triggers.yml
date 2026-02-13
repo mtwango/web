@@ -1,0 +1,22 @@
+uuid: 984ee237-38ef-4411-9c18-3c60e847c62f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: triggers
+label: Triggers
+type: 'canonical_entities:node'
+pattern: '/triggers/[node:title]'
+selection_criteria:
+  53c4284a-854a-4585-81d2-bd168d57550d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 53c4284a-854a-4585-81d2-bd168d57550d
+    context_mapping:
+      node: node
+    bundles:
+      trigger: trigger
+selection_logic: and
+weight: -5
+relationships: {  }

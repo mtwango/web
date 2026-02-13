@@ -1,0 +1,31 @@
+uuid: c6ae3335-a9e2-4b53-865a-e2a613bdaf52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.reference.field_description
+    - field.field.paragraph.reference.field_name
+    - paragraphs.paragraphs_type.reference
+  module:
+    - text
+id: paragraph.reference.default
+targetEntityType: paragraph
+bundle: reference
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_name:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

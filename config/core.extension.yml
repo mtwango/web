@@ -11,9 +11,11 @@ module:
   cache_control_override: 0
   ckeditor5: 0
   config: 0
+  contextual: 0
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -27,6 +29,7 @@ module:
   menu_ui: 0
   mysql: 0
   node: 0
+  options: 0
   page_cache: 0
   path: 0
   path_alias: 0
@@ -46,6 +49,7 @@ module:
   views_ui: 0
   pathauto: 1
   views: 10
+  paragraphs: 11
   minimal: 1000
 theme:
   stark: 0

@@ -34,6 +34,7 @@
         "drupal/gin": "^5.0",
         "drupal/manage_display": "^3.0",
         "drupal/metatag": "^2.2",
+        "drupal/paragraphs": "^1.20",
         "drupal/pathauto": "^1.14",
         "drupal/redirect": "^1.12",
         "drupal/robotstxt": "^1.6",

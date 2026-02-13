@@ -1,0 +1,40 @@
+uuid: 41870aae-1d2f-4282-b076-b12df49660c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.argument.field_description
+    - field.field.paragraph.argument.field_in_out
+    - field.field.paragraph.argument.field_name
+    - paragraphs.paragraphs_type.argument
+  module:
+    - options
+    - text
+id: paragraph.argument.default
+targetEntityType: paragraph
+bundle: argument
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_in_out:
+    type: list_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_name:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
