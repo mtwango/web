@@ -1,13 +1,25 @@
 /* Buttons on web. */
 
 .btn {
-  &-outline-primary {
-    color: var(--sphere-main-color);
-    border-color: var(--sphere-main-color);
+  border-color: var(--sphere-main-color);
+
+  &-primary {
+    background-color: var(--sphere-main-color);
+
+    &:hover {
+      color: var(--sphere-main-color);
+      border-color: var(--sphere-main-color);
+      background-color: var(--sphere-white-color);
+    }
   }
 
-  &:hover {
-    border-color: var(--sphere-main-color);
-    background-color: var(--sphere-main-color);
+  &-outline-primary {
+    color: var(--sphere-main-color);
+    background-color: var(--sphere-white-color);
+
+    &:hover {
+      border-color: var(--sphere-main-color);
+      background-color: var(--sphere-main-color);
+    }
   }
 }
