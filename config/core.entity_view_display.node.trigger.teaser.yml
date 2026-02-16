@@ -1,0 +1,34 @@
+uuid: cc9207f8-88c2-4ade-bdea-a0323706b6eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trigger.body
+    - field.field.node.trigger.field_arguments
+    - field.field.node.trigger.field_entity
+    - field.field.node.trigger.field_references
+    - field.field.node.trigger.field_returns
+    - node.type.trigger
+  module:
+    - text
+    - user
+id: node.trigger.teaser
+targetEntityType: node
+bundle: trigger
+mode: teaser
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 150
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_arguments: true
+  field_entity: true
+  field_references: true
+  field_returns: true
+  links: true
