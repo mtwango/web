@@ -58,9 +58,10 @@
         }
       }
 
-      &__item {
+      &__item a {
         margin-right: 0.5rem;
-        padding: 0.25rem 0.5rem;
+        padding: 0.5rem;
+        text-decoration: none;
         color: var(--sphere-white-color);
         border: 1px solid var(--sphere-main-color);
         border-radius: 6px;
@@ -120,7 +121,7 @@
         }
       }
       > .field__item:nth-child(even) {
-        background-color: #ddd;
+        background-color: #eee;
       }
 
       // Hide Entity Reference labels (except for the first one).
