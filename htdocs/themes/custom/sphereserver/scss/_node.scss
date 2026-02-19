@@ -3,6 +3,8 @@
 // Frontpage.
 .path-frontpage {
   .node {
+    padding-top: 2rem;
+
     // Font awesome icons.
     a.btn {
       width: 150px;
@@ -34,6 +36,10 @@
       @media (min-width: 455px) and (max-width: 767px) {
         width: 175px;
       }
+    }
+
+    @media (min-width: 768px) {
+      padding-top: 5rem;
     }
   }
 }

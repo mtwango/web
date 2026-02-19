@@ -5,9 +5,9 @@
 @use "components/buttons";
 
 .layout-main-wrapper {
-  padding: 2rem 0;
+  padding-bottom: 2rem;
 
   @media (min-width: 768px) {
-    padding: 5rem 0;
+    padding-bottom: 5rem;
   }
 }
