@@ -55,7 +55,7 @@
     "require-dev": {
         "drupal/core-dev": "^11.3",
         "drupal/devel": "^5.5",
-        "drupal/masquerade": "^2.0",
+        "drupal/masquerade": "^2.1",
         "phpcompatibility/php-compatibility": "dev-develop",
         "phpmd/phpmd": "^2.15",
         "phpstan/phpstan-strict-rules": "^2.0",
