@@ -9,3 +9,5 @@ parameters:
   ignoreErrors:
     -
       identifier: missingType.iterableValue
+    -
+      identifier: offsetAccess.nonOffsetAccessible

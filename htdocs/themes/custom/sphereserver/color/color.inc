@@ -123,7 +123,7 @@ $info = [
     'drupalSettings' => [
       'color' => [
         // Put the logo path into JavaScript for the live preview.
-        'logo' => theme_get_setting('logo.url', 'dark_paradise'),
+        'logo' => \Drupal::service('Drupal\Core\Extension\ThemeSettingsProvider')->getSetting('logo.url', 'sphereserver'),
       ],
     ],
   ],

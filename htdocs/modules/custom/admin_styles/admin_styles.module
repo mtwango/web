@@ -8,7 +8,7 @@
 /**
  * Implements hook_page_attachments().
  */
-function admin_styles_page_attachments(array &$attachments) {
+function admin_styles_page_attachments(array &$attachments): void {
   // Attach the library if the active route is an admin one.
   if (\Drupal::service('router.admin_context')->isAdminRoute()) {
     $attachments['#attached']['library'][] = 'sphereserver/admin';
