@@ -1,0 +1,21 @@
+uuid: f16a9f20-d953-4b35-8d85-ca1e35a4b3b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_in_out
+    - paragraphs.paragraphs_type.argument
+  module:
+    - options
+id: paragraph.argument.field_in_out
+field_name: field_in_out
+entity_type: paragraph
+bundle: argument
+label: In/Out
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

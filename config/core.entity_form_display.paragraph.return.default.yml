@@ -1,0 +1,33 @@
+uuid: c2546b12-085d-4ce0-8d52-5536e2e05f3f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.return.field_description
+    - field.field.paragraph.return.field_value
+    - paragraphs.paragraphs_type.return
+  module:
+    - text
+id: paragraph.return.default
+targetEntityType: paragraph
+bundle: return
+mode: default
+content:
+  field_description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+  field_value:
+    type: number
+    weight: 0
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

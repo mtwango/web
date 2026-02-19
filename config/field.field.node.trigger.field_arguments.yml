@@ -1,0 +1,37 @@
+uuid: 90ddf2fd-81c9-4f5e-b1fb-b15d87768740
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_arguments
+    - node.type.trigger
+    - paragraphs.paragraphs_type.argument
+  module:
+    - entity_reference_revisions
+id: node.trigger.field_arguments
+field_name: field_arguments
+entity_type: node
+bundle: trigger
+label: Arguments
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      argument: argument
+    negate: 0
+    target_bundles_drag_drop:
+      argument:
+        weight: 4
+        enabled: true
+      reference:
+        weight: 5
+        enabled: false
+      return:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

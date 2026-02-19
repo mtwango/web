@@ -1,0 +1,23 @@
+uuid: 223518ef-851f-4f58-b931-f36a8f80b603
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_value
+    - paragraphs.paragraphs_type.return
+id: paragraph.return.field_value
+field_name: field_value
+entity_type: paragraph
+bundle: return
+label: Value
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

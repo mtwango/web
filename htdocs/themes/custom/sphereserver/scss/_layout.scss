@@ -3,11 +3,3 @@
 @use "components/header";
 @use "components/footer";
 @use "components/buttons";
-
-.layout-main-wrapper {
-  padding: 2rem 0;
-
-  @media (min-width: 768px) {
-    padding: 5rem 0;
-  }
-}

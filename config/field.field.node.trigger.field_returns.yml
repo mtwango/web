@@ -1,0 +1,37 @@
+uuid: 4f349b8d-e67c-405b-b7d1-3399483ac26f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_returns
+    - node.type.trigger
+    - paragraphs.paragraphs_type.return
+  module:
+    - entity_reference_revisions
+id: node.trigger.field_returns
+field_name: field_returns
+entity_type: node
+bundle: trigger
+label: 'Return values'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      return: return
+    negate: 0
+    target_bundles_drag_drop:
+      argument:
+        weight: 4
+        enabled: false
+      reference:
+        weight: 5
+        enabled: false
+      return:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

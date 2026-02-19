@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Admin theme specific CSS (loaded via helper module).
+ */
+
+.node-trigger-form,
+.node-trigger-edit-form {
+  .field--name-field-entity {
+    .form-type--checkbox {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+  }
+}

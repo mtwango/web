@@ -1,0 +1,9 @@
+uuid: 607eb5e7-f2fb-4aad-85cd-e5248a5e5006
+langcode: en
+status: true
+dependencies: {  }
+name: Objects
+vid: objects
+description: 'Used with triggers to assign on which entities is the trigger fired.'
+weight: 0
+new_revision: true

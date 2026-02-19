@@ -1,0 +1,68 @@
+uuid: 9c408f89-45e1-4b0f-a2a0-5aeb048a9b5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trigger.body
+    - field.field.node.trigger.field_arguments
+    - field.field.node.trigger.field_entity
+    - field.field.node.trigger.field_references
+    - field.field.node.trigger.field_returns
+    - node.type.trigger
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.trigger.default
+targetEntityType: node
+bundle: trigger
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_arguments:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_entity:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_references:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_returns:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

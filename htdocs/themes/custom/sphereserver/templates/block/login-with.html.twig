@@ -1,0 +1,25 @@
+{% set module = 'social-auth' %}
+<div class="auth-link auth-link--header">---- {{ 'or use'|t }} ----</div>
+{% for id, network in networks %}
+  {% if destination %}
+    {% set options = {'query': {'destination': destination}} %}
+  {% else %}
+    {% set options = {} %}
+  {% endif %}
+  <a class="d-inline-block mx-3 my-2 button btn btn-outline-primary {{ module }} auth-link" href="{{ network.getRedirectUrl(options).toString }}"
+     title="{{ 'Authenticate through @social_network_name' | t({'@social_network_name': network.getPluginDefinition.social_network}) }}">
+
+    {% if network.getPluginDefinition.social_network == 'Facebook' %}
+      <i class="fa-brands fa-facebook"></i>
+    {% elseif network.getPluginDefinition.social_network == 'Google' %}
+      <i class="fa-brands fa-google"></i>
+    {% elseif network.getPluginDefinition.social_network == 'GitHub' %}
+      <i class="fa-brands fa-github"></i>
+    {% else %}
+      <img class="{{ module }} auth-icon"
+         src="{{ network.getProviderLogoPath }}"
+         alt="{{ 'Authenticate through @social_network_name' | t({'@social_network_name': network.getPluginDefinition.social_network}) }}">
+    {% endif %}
+    {{ network.getPluginDefinition.social_network }}
+  </a>
+{% endfor %}

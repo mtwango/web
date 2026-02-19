@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f99395a2b53558a19d083088c304ed9",
+    "content-hash": "9d367f1202e41135c23f3e1140f108f4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1225,6 +1225,80 @@
             }
         },
         {
+            "name": "drupal/better_exposed_filters",
+            "version": "7.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/better_exposed_filters.git",
+                "reference": "7.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/better_exposed_filters-7.1.1.zip",
+                "reference": "7.1.1",
+                "shasum": "e22a4afccf011a583e2ae6297d34f7d344552469"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/nouislider_js": "^15.8.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "7.1.1",
+                    "datestamp": "1763681621",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Keran",
+                    "homepage": "https://www.drupal.org/u/mikeker"
+                },
+                {
+                    "name": "Martin Keereman",
+                    "homepage": "https://www.drupal.org/u/etroid"
+                },
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto"
+                },
+                {
+                    "name": "mikeker",
+                    "homepage": "https://www.drupal.org/user/192273"
+                },
+                {
+                    "name": "neslee canil pinto",
+                    "homepage": "https://www.drupal.org/user/3580850"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                },
+                {
+                    "name": "rlhawk",
+                    "homepage": "https://www.drupal.org/user/352283"
+                },
+                {
+                    "name": "smustgrave",
+                    "homepage": "https://www.drupal.org/user/3252890"
+                }
+            ],
+            "description": "Replaces the Views default single- or multi-select boxes with more advanced options.",
+            "homepage": "https://www.drupal.org/project/better_exposed_filters",
+            "support": {
+                "source": "https://git.drupalcode.org/project/better_exposed_filters",
+                "issues": "https://www.drupal.org/project/issues/better_exposed_filters"
+            }
+        },
+        {
             "name": "drupal/bootstrap_barrio",
             "version": "5.5.20",
             "source": {
@@ -1325,6 +1399,70 @@
             "homepage": "https://www.drupal.org/project/cache_control_override",
             "support": {
                 "source": "https://git.drupalcode.org/project/cache_control_override"
+            }
+        },
+        {
+            "name": "drupal/config_ignore",
+            "version": "3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_ignore.git",
+                "reference": "8.x-3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_ignore-8.x-3.3.zip",
+                "reference": "8.x-3.3",
+                "shasum": "4446811ecb023820a57c227d35c034e0d4363a70"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/config_filter": "^1.8||^2.2",
+                "drush/drush": "^10 || ^11 || ^12"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.3",
+                    "datestamp": "1713299496",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Tommy Lynge Jørgensen",
+                    "homepage": "https://www.drupal.org/u/tlyngej",
+                    "email": "tlyngej@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Fabian Bircher",
+                    "homepage": "https://www.drupal.org/u/bircher",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "nord102",
+                    "homepage": "https://www.drupal.org/user/3471419"
+                },
+                {
+                    "name": "tlyngej",
+                    "homepage": "https://www.drupal.org/user/413139"
+                }
+            ],
+            "description": "Ignore certain configuration during import and export.",
+            "homepage": "http://drupal.org/project/config_ignore",
+            "support": {
+                "source": "https://git.drupalcode.org/project/config_ignore",
+                "issues": "http://drupal.org/project/config_ignore"
             }
         },
         {
@@ -1728,6 +1866,163 @@
             }
         },
         {
+            "name": "drupal/easy_breadcrumb",
+            "version": "2.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/easy_breadcrumb.git",
+                "reference": "2.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/easy_breadcrumb-2.0.9.zip",
+                "reference": "2.0.9",
+                "shasum": "9e7c33e2ec0637d37d509776795a476f2f2d9bb8"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.9",
+                    "datestamp": "1732752214",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Greg Boggs",
+                    "homepage": "https://www.drupal.org/u/greg-boggs",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "diamondsea",
+                    "homepage": "https://www.drupal.org/user/430714"
+                },
+                {
+                    "name": "greg boggs",
+                    "homepage": "https://www.drupal.org/user/153069"
+                },
+                {
+                    "name": "hmartens",
+                    "homepage": "https://www.drupal.org/user/622826"
+                },
+                {
+                    "name": "loopduplicate",
+                    "homepage": "https://www.drupal.org/user/717290"
+                },
+                {
+                    "name": "neslee canil pinto",
+                    "homepage": "https://www.drupal.org/user/3580850"
+                },
+                {
+                    "name": "nickdickinsonwilde",
+                    "homepage": "https://www.drupal.org/user/3094661"
+                },
+                {
+                    "name": "rakesh.gectcr",
+                    "homepage": "https://www.drupal.org/user/1177822"
+                },
+                {
+                    "name": "renatog",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "sonemonu",
+                    "homepage": "https://www.drupal.org/user/1667988"
+                },
+                {
+                    "name": "spuky",
+                    "homepage": "https://www.drupal.org/user/209353"
+                },
+                {
+                    "name": "tatarbj",
+                    "homepage": "https://www.drupal.org/user/649590"
+                }
+            ],
+            "description": "Adds configuration to the system breadcrumbs.",
+            "homepage": "https://www.drupal.org/project/easy_breadcrumb",
+            "support": {
+                "source": "https://git.drupalcode.org/project/easy_breadcrumb",
+                "issues": "https://www.drupal.org/project/issues/easy_breadcrumb"
+            }
+        },
+        {
+            "name": "drupal/entity_reference_revisions",
+            "version": "1.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_reference_revisions.git",
+                "reference": "8.x-1.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.14.zip",
+                "reference": "8.x-1.14",
+                "shasum": "cb900e41124979a46da1912ff2b502270beda632"
+            },
+            "require": {
+                "drupal/core": "^10.2 || ^11"
+            },
+            "conflict": {
+                "drush/drush": "<12.5.1"
+            },
+            "require-dev": {
+                "drupal/diff": "^1 || ^2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.14",
+                    "datestamp": "1767266825",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "frans",
+                    "homepage": "https://www.drupal.org/user/514222"
+                },
+                {
+                    "name": "jeroen.b",
+                    "homepage": "https://www.drupal.org/user/1853532"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                }
+            ],
+            "description": "Entity Reference Revisions",
+            "homepage": "https://www.drupal.org/project/entity_reference_revisions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
             "name": "drupal/gin",
             "version": "5.0.12",
             "source": {
@@ -1979,6 +2274,116 @@
                 "source": "https://git.drupalcode.org/project/metatag",
                 "issues": "https://www.drupal.org/project/issues/metatag",
                 "docs": "https://www.drupal.org/docs/8/modules/metatag"
+            }
+        },
+        {
+            "name": "drupal/nouislider_js",
+            "version": "15.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/nouislider_js.git",
+                "reference": "b5610d5842784581e4c766cd1c3852ca0b355ed5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://git.drupalcode.org/api/v4/projects/project%2Fnouislider_js/repository/archive.zip?sha=b5610d5842784581e4c766cd1c3852ca0b355ed5",
+                "reference": "b5610d5842784581e4c766cd1c3852ca0b355ed5",
+                "shasum": ""
+            },
+            "type": "drupal-library",
+            "extra": {
+                "installer-name": "nouislider"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT License"
+            ],
+            "description": "Mirror of the noUiSlider javascript library tagged as a Drupal library.",
+            "homepage": "https://github.com/leongersen/noUiSlider",
+            "support": {
+                "source": "https://git.drupalcode.org/project/nouislider_js/-/tree/15.8.0"
+            },
+            "time": "2025-01-03T10:53:20+00:00"
+        },
+        {
+            "name": "drupal/paragraphs",
+            "version": "1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/paragraphs.git",
+                "reference": "8.x-1.20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/paragraphs-8.x-1.20.zip",
+                "reference": "8.x-1.20",
+                "shasum": "68051cc8c025aa3f62fd44a219d158361928a4ad"
+            },
+            "require": {
+                "drupal/core": "^10.3 || ^11",
+                "drupal/entity_reference_revisions": "~1.3"
+            },
+            "require-dev": {
+                "drupal/block_field": "1.x-dev",
+                "drupal/diff": "1.x-dev",
+                "drupal/entity_browser": "2.x-dev",
+                "drupal/entity_usage": "2.x-dev",
+                "drupal/feeds": "^3",
+                "drupal/field_group": "3.x-dev",
+                "drupal/inline_entity_form": "3.x-dev",
+                "drupal/paragraphs-paragraphs_library": "*",
+                "drupal/replicate": "1.x-dev",
+                "drupal/search_api": "^1",
+                "drupal/search_api_db": "*"
+            },
+            "suggest": {
+                "drupal/entity_browser": "Recommended for an improved user experience when using the Paragraphs library module"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.20",
+                    "datestamp": "1767269542",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "frans",
+                    "homepage": "https://www.drupal.org/user/514222"
+                },
+                {
+                    "name": "jeroen.b",
+                    "homepage": "https://www.drupal.org/user/1853532"
+                },
+                {
+                    "name": "jstoller",
+                    "homepage": "https://www.drupal.org/user/99012"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "primsi",
+                    "homepage": "https://www.drupal.org/user/282629"
+                }
+            ],
+            "description": "Enables the creation of Paragraphs entities.",
+            "homepage": "https://www.drupal.org/project/paragraphs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/paragraphs"
             }
         },
         {
@@ -2307,6 +2712,366 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/smtp",
                 "issues": "https://www.drupal.org/project/issues/smtp"
+            }
+        },
+        {
+            "name": "drupal/social_api",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_api.git",
+                "reference": "4.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_api-4.0.2.zip",
+                "reference": "4.0.2",
+                "shasum": "8da084f0262080b2dfbbaa0ffb72cc386c6221dc"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11",
+                "ext-openssl": "*",
+                "league/oauth2-client": "^2.0"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3",
+                "phpcompatibility/php-compatibility": "^9.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.2",
+                    "datestamp": "1725453406",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Getulio Sánchez (gvso)",
+                    "homepage": "https://www.drupal.org/u/gvso",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Himansh Dixit (himanshu-dixit)",
+                    "homepage": "https://www.drupal.org/user/3510098",
+                    "email": "hudixt@gmail.com"
+                },
+                {
+                    "name": "Chrsitopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/550110",
+                    "email": "drupal.org@chris-wells.net"
+                },
+                {
+                    "name": "gvso",
+                    "homepage": "https://www.drupal.org/user/3101285"
+                },
+                {
+                    "name": "himanshu-dixit",
+                    "homepage": "https://www.drupal.org/user/3513954"
+                },
+                {
+                    "name": "wells",
+                    "homepage": "https://www.drupal.org/user/2452278"
+                }
+            ],
+            "description": "Harmonizes social networking services in Drupal",
+            "homepage": "https://www.drupal.org/project/social_api",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_api",
+                "issues": "https://www.drupal.org/project/issues/social_api"
+            }
+        },
+        {
+            "name": "drupal/social_auth",
+            "version": "4.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_auth.git",
+                "reference": "4.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_auth-4.1.2.zip",
+                "reference": "4.1.2",
+                "shasum": "84dca21b4bce83ef9a1e6887d507f15829f9b6bc"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11",
+                "drupal/social_api": "^4.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3",
+                "phpcompatibility/php-compatibility": "^9.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.1.2",
+                    "datestamp": "1731637091",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Getulio Valentin Sánchez (gvso)",
+                    "homepage": "https://www.drupal.org/user/3510098",
+                    "email": "valentin2507@gmail.com"
+                },
+                {
+                    "name": "Himansh Dixit (himanshu-dixit)",
+                    "homepage": "https://www.drupal.org/user/550110",
+                    "email": "hudixt@gmail.com"
+                },
+                {
+                    "name": "Chrsitopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/3101285",
+                    "email": "drupal.org@chris-wells.net"
+                },
+                {
+                    "name": "himanshu-dixit",
+                    "homepage": "https://www.drupal.org/user/3513954"
+                },
+                {
+                    "name": "wells",
+                    "homepage": "https://www.drupal.org/user/2452278"
+                }
+            ],
+            "description": "Social Auth ",
+            "homepage": "https://www.drupal.org/project/social_auth",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_auth",
+                "issues": "https://www.drupal.org/project/issues/social_auth"
+            }
+        },
+        {
+            "name": "drupal/social_auth_facebook",
+            "version": "4.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_auth_facebook.git",
+                "reference": "4.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_auth_facebook-4.0.4.zip",
+                "reference": "4.0.4",
+                "shasum": "703eec84539d3c9cca8115e3e36f4b44d010ee38"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11",
+                "drupal/social_auth": "^4.1",
+                "league/oauth2-facebook": "^2.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3",
+                "phpcompatibility/php-compatibility": "^9.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.4",
+                    "datestamp": "1725713176",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Getulio Valentin Sánchez (gvso)",
+                    "homepage": "https://www.drupal.org/user/3510098",
+                    "email": "valentin2507@gmail.com"
+                },
+                {
+                    "name": "Utkarsh Dixit (denutkarsh)",
+                    "homepage": "https://www.drupal.org/user/3101285",
+                    "email": "downloadplaza97@gmail.com"
+                },
+                {
+                    "name": "Himanshu Dixit (himanshu-dixit)",
+                    "homepage": "https://www.drupal.org/user/3513954",
+                    "email": "hudixt@gmail.com"
+                },
+                {
+                    "name": "Christopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/3509455",
+                    "email": "drupal.org@chris-wells.net"
+                },
+                {
+                    "name": "wells",
+                    "homepage": "https://www.drupal.org/user/2452278"
+                }
+            ],
+            "description": "Social Auth integration for Facebook.",
+            "homepage": "https://www.drupal.org/project/social_auth_facebook",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_auth_facebook",
+                "issues": "https://www.drupal.org/project/issues/social_auth_facebook"
+            }
+        },
+        {
+            "name": "drupal/social_auth_github",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_auth_github.git",
+                "reference": "4.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_auth_github-4.0.1.zip",
+                "reference": "4.0.1",
+                "shasum": "20a67283ba518fe016475c1c29d8a5bfb9a753d9"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11",
+                "drupal/social_auth": "^4.1",
+                "league/oauth2-github": "^2.0 || ^3.1"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3",
+                "phpcompatibility/php-compatibility": "^9.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.1",
+                    "datestamp": "1725491796",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Getulio Valentin Sánchez (gvso)",
+                    "homepage": "https://www.drupal.org/user/3101285",
+                    "email": "valentin2507@gmail.com"
+                },
+                {
+                    "name": "Himanshu Dixit (himanshu-dixit)",
+                    "homepage": "https://www.drupal.org/user/3513954",
+                    "email": "hudixt@gmail.com"
+                },
+                {
+                    "name": "Christopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/3509455",
+                    "email": "drupal.org@chris-wells.net"
+                },
+                {
+                    "name": "wells",
+                    "homepage": "https://www.drupal.org/user/2452278"
+                }
+            ],
+            "description": "Social Auth integration for GitHub.",
+            "homepage": "https://www.drupal.org/project/social_auth_github",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_auth_github",
+                "issues": "https://www.drupal.org/project/issues/social_auth_github"
+            }
+        },
+        {
+            "name": "drupal/social_auth_google",
+            "version": "4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/social_auth_google.git",
+                "reference": "4.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/social_auth_google-4.0.3.zip",
+                "reference": "4.0.3",
+                "shasum": "83df4179f3dd86e6e7168864ed108c240d010c4c"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11",
+                "drupal/social_auth": "^4.1",
+                "league/oauth2-google": "^4.0",
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "drupal/coder": "^8.3",
+                "phpcompatibility/php-compatibility": "^9.3"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "4.0.3",
+                    "datestamp": "1725460103",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Getulio Valentin Sánchez (gvso)",
+                    "homepage": "https://www.drupal.org/user/3101285",
+                    "email": "valentin2507@gmail.com"
+                },
+                {
+                    "name": "Himanshu Dixit (himanshu-dixit)",
+                    "homepage": "https://www.drupal.org/user/3513954",
+                    "email": "hudixt@gmail.com"
+                },
+                {
+                    "name": "Christopher C. Wells (wells)",
+                    "homepage": "https://www.drupal.org/user/2452278",
+                    "email": "drupal.org@chris-wells.net"
+                }
+            ],
+            "description": "Social Auth integration for Google.",
+            "homepage": "https://www.drupal.org/project/social_auth_google",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/social_auth_google",
+                "issues": "https://www.drupal.org/project/issues/social_auth_google"
             }
         },
         {
@@ -3285,6 +4050,248 @@
                 }
             ],
             "time": "2025-05-20T12:55:37+00:00"
+        },
+        {
+            "name": "league/oauth2-client",
+            "version": "2.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-client.git",
+                "reference": "26e8c5da4f3d78cede7021e09b1330a0fc093d5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-client/zipball/26e8c5da4f3d78cede7021e09b1330a0fc093d5e",
+                "reference": "26e8c5da4f3d78cede7021e09b1330a0fc093d5e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+                "php": "^7.1 || >=8.0.0 <8.6.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.3.5",
+                "php-parallel-lint/php-parallel-lint": "^1.4",
+                "phpunit/phpunit": "^7 || ^8 || ^9 || ^10 || ^11",
+                "squizlabs/php_codesniffer": "^3.11"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Bilbie",
+                    "email": "hello@alexbilbie.com",
+                    "homepage": "http://www.alexbilbie.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Woody Gilk",
+                    "homepage": "https://github.com/shadowhand",
+                    "role": "Contributor"
+                }
+            ],
+            "description": "OAuth 2.0 Client Library",
+            "keywords": [
+                "Authentication",
+                "SSO",
+                "authorization",
+                "identity",
+                "idp",
+                "oauth",
+                "oauth2",
+                "single sign on"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-client/issues",
+                "source": "https://github.com/thephpleague/oauth2-client/tree/2.9.0"
+            },
+            "time": "2025-11-25T22:17:17+00:00"
+        },
+        {
+            "name": "league/oauth2-facebook",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-facebook.git",
+                "reference": "ec6d62a00b548c6cd56d7b734346b9e6befbfbbb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-facebook/zipball/ec6d62a00b548c6cd56d7b734346b9e6befbfbbb",
+                "reference": "ec6d62a00b548c6cd56d7b734346b9e6befbfbbb",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "^2.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "mockery/mockery": "~1.3.0",
+                "phpunit/phpunit": "^9.4",
+                "squizlabs/php_codesniffer": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sammy Kaye Powers",
+                    "email": "me@sammyk.me",
+                    "homepage": "http://www.sammyk.me"
+                }
+            ],
+            "description": "Facebook OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "client",
+                "facebook",
+                "oauth",
+                "oauth2"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-facebook/issues",
+                "source": "https://github.com/thephpleague/oauth2-facebook/tree/2.2.0"
+            },
+            "time": "2022-02-24T18:45:07+00:00"
+        },
+        {
+            "name": "league/oauth2-github",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-github.git",
+                "reference": "84211f62b757f7266fe605a0aa874a32f52c24fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-github/zipball/84211f62b757f7266fe605a0aa874a32f52c24fd",
+                "reference": "84211f62b757f7266fe605a0aa874a32f52c24fd",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "league/oauth2-client": "^2.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.4",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steven Maguire",
+                    "email": "stevenmaguire@gmail.com",
+                    "homepage": "https://github.com/stevenmaguire"
+                },
+                {
+                    "name": "Woody Gilk",
+                    "email": "woody.gilk@gmail.com",
+                    "homepage": "https://github.com/shadowhand"
+                }
+            ],
+            "description": "Github OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "authorisation",
+                "authorization",
+                "client",
+                "github",
+                "oauth",
+                "oauth2"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-github/issues",
+                "source": "https://github.com/thephpleague/oauth2-github/tree/3.1.1"
+            },
+            "time": "2024-09-03T10:42:10+00:00"
+        },
+        {
+            "name": "league/oauth2-google",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-google.git",
+                "reference": "8b9bb43740ac6d994aca881a35f7bacbe98c0ffb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-google/zipball/8b9bb43740ac6d994aca881a35f7bacbe98c0ffb",
+                "reference": "8b9bb43740ac6d994aca881a35f7bacbe98c0ffb",
+                "shasum": ""
+            },
+            "require": {
+                "league/oauth2-client": "^2.0",
+                "php": "^7.3 || ^8.0"
+            },
+            "require-dev": {
+                "eloquent/phony-phpunit": "^6.0 || ^7.1",
+                "phpunit/phpunit": "^8.0 || ^9.0",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\OAuth2\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Woody Gilk",
+                    "email": "hello@shadowhand.com",
+                    "homepage": "https://shadowhand.com"
+                }
+            ],
+            "description": "Google OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+            "keywords": [
+                "Authentication",
+                "authorization",
+                "client",
+                "google",
+                "oauth",
+                "oauth2"
+            ],
+            "support": {
+                "issues": "https://github.com/thephpleague/oauth2-google/issues",
+                "source": "https://github.com/thephpleague/oauth2-google/tree/4.1.0"
+            },
+            "time": "2025-12-15T12:24:14+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -4314,16 +5321,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.19",
+            "version": "v0.12.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "a4f766e5c5b6773d8399711019bb7d90875a50ee"
+                "reference": "19678eb6b952a03b8a1d96ecee9edba518bb0373"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/a4f766e5c5b6773d8399711019bb7d90875a50ee",
-                "reference": "a4f766e5c5b6773d8399711019bb7d90875a50ee",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/19678eb6b952a03b8a1d96ecee9edba518bb0373",
+                "reference": "19678eb6b952a03b8a1d96ecee9edba518bb0373",
                 "shasum": ""
             },
             "require": {
@@ -4387,9 +5394,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.19"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.20"
             },
-            "time": "2026-01-30T17:33:13+00:00"
+            "time": "2026-02-11T15:05:28+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -9902,26 +10909,26 @@
         },
         {
             "name": "drupal/masquerade",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/masquerade.git",
-                "reference": "8.x-2.0"
+                "reference": "8.x-2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/masquerade-8.x-2.0.zip",
-                "reference": "8.x-2.0",
-                "shasum": "3af711878f5f7a06a2c837440cb90fbcba8db0e1"
+                "url": "https://ftp.drupal.org/files/projects/masquerade-8.x-2.1.zip",
+                "reference": "8.x-2.1",
+                "shasum": "f76ef91aafa5f2db461a345c950179348493d1eb"
             },
             "require": {
-                "drupal/core": "^9.2 || ^10 || ^11.0"
+                "drupal/core": "^9.2 || ^10.2 || ^11.0"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0",
-                    "datestamp": "1723165789",
+                    "version": "8.x-2.1",
+                    "datestamp": "1771255000",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10134,16 +11141,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "6.6.4",
+            "version": "v6.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jsonrainbow/json-schema.git",
-                "reference": "2eeb75d21cf73211335888e7f5e6fd7440723ec7"
+                "reference": "6fea66c7204683af437864e7c4e7abf383d14bc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/2eeb75d21cf73211335888e7f5e6fd7440723ec7",
-                "reference": "2eeb75d21cf73211335888e7f5e6fd7440723ec7",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/6fea66c7204683af437864e7c4e7abf383d14bc0",
+                "reference": "6fea66c7204683af437864e7c4e7abf383d14bc0",
                 "shasum": ""
             },
             "require": {
@@ -10203,9 +11210,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
-                "source": "https://github.com/jsonrainbow/json-schema/tree/6.6.4"
+                "source": "https://github.com/jsonrainbow/json-schema/tree/v6.7.2"
             },
-            "time": "2025-12-19T15:01:32+00:00"
+            "time": "2026-02-15T15:06:22+00:00"
         },
         {
             "name": "kelunik/certificate",
@@ -12629,16 +13636,16 @@
         },
         {
             "name": "phpstan/phpstan-phpunit",
-            "version": "2.0.15",
+            "version": "2.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-phpunit.git",
-                "reference": "0f6ba8e22a3e919353a8f4615ea3cd2e91626c7f"
+                "reference": "6ab598e1bc106e6827fd346ae4a12b4a5d634c32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-phpunit/zipball/0f6ba8e22a3e919353a8f4615ea3cd2e91626c7f",
-                "reference": "0f6ba8e22a3e919353a8f4615ea3cd2e91626c7f",
+                "url": "https://api.github.com/repos/phpstan/phpstan-phpunit/zipball/6ab598e1bc106e6827fd346ae4a12b4a5d634c32",
+                "reference": "6ab598e1bc106e6827fd346ae4a12b4a5d634c32",
                 "shasum": ""
             },
             "require": {
@@ -12679,27 +13686,27 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-phpunit/issues",
-                "source": "https://github.com/phpstan/phpstan-phpunit/tree/2.0.15"
+                "source": "https://github.com/phpstan/phpstan-phpunit/tree/2.0.16"
             },
-            "time": "2026-02-11T14:43:43+00:00"
+            "time": "2026-02-14T09:05:21+00:00"
         },
         {
             "name": "phpstan/phpstan-strict-rules",
-            "version": "2.0.9",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-strict-rules.git",
-                "reference": "b94a0b13fb87d8d034c103852656118b32df9155"
+                "reference": "1aba28b697c1e3b6bbec8a1725f8b11b6d3e5a5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/b94a0b13fb87d8d034c103852656118b32df9155",
-                "reference": "b94a0b13fb87d8d034c103852656118b32df9155",
+                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/1aba28b697c1e3b6bbec8a1725f8b11b6d3e5a5f",
+                "reference": "1aba28b697c1e3b6bbec8a1725f8b11b6d3e5a5f",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.4 || ^8.0",
-                "phpstan/phpstan": "^2.1.29"
+                "phpstan/phpstan": "^2.1.39"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
@@ -12730,9 +13737,9 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-strict-rules/issues",
-                "source": "https://github.com/phpstan/phpstan-strict-rules/tree/2.0.9"
+                "source": "https://github.com/phpstan/phpstan-strict-rules/tree/2.0.10"
             },
-            "time": "2026-02-11T09:03:17+00:00"
+            "time": "2026-02-11T14:17:32+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -13083,16 +14090,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.53",
+            "version": "11.5.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a997a653a82845f1240d73ee73a8a4e97e4b0607"
+                "reference": "adc7262fccc12de2b30f12a8aa0b33775d814f00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a997a653a82845f1240d73ee73a8a4e97e4b0607",
-                "reference": "a997a653a82845f1240d73ee73a8a4e97e4b0607",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/adc7262fccc12de2b30f12a8aa0b33775d814f00",
+                "reference": "adc7262fccc12de2b30f12a8aa0b33775d814f00",
                 "shasum": ""
             },
             "require": {
@@ -13165,7 +14172,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.53"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.55"
             },
             "funding": [
                 {
@@ -13189,7 +14196,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-02-10T12:28:25+00:00"
+            "time": "2026-02-18T12:37:06+00:00"
         },
         {
             "name": "psr/cache",
@@ -15767,16 +16774,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "2.1.2",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozarts/assert.git",
-                "reference": "ce6a2f100c404b2d32a1dd1270f9b59ad4f57649"
+                "reference": "79155f94852fa27e2f73b459f6503f5e87e2c188"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozarts/assert/zipball/ce6a2f100c404b2d32a1dd1270f9b59ad4f57649",
-                "reference": "ce6a2f100c404b2d32a1dd1270f9b59ad4f57649",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/79155f94852fa27e2f73b459f6503f5e87e2c188",
+                "reference": "79155f94852fa27e2f73b459f6503f5e87e2c188",
                 "shasum": ""
             },
             "require": {
@@ -15823,9 +16830,9 @@
             ],
             "support": {
                 "issues": "https://github.com/webmozarts/assert/issues",
-                "source": "https://github.com/webmozarts/assert/tree/2.1.2"
+                "source": "https://github.com/webmozarts/assert/tree/2.1.5"
             },
-            "time": "2026-01-13T14:02:24+00:00"
+            "time": "2026-02-18T14:09:36+00:00"
         }
     ],
     "aliases": [],
