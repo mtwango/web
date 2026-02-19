@@ -7,12 +7,12 @@ dependencies:
 id: triggers
 label: Triggers
 type: 'canonical_entities:node'
-pattern: '/triggers/[node:title]'
+pattern: '/wiki/triggers/[node:title]'
 selection_criteria:
-  53c4284a-854a-4585-81d2-bd168d57550d:
+  be0a4a7f-7dd8-4f71-8e4e-ce4fb0777eab:
     id: 'entity_bundle:node'
     negate: false
-    uuid: 53c4284a-854a-4585-81d2-bd168d57550d
+    uuid: be0a4a7f-7dd8-4f71-8e4e-ce4fb0777eab
     context_mapping:
       node: node
     bundles:
