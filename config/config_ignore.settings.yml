@@ -1,0 +1,10 @@
+_core:
+  default_config_hash: IgOVnECx6lbVt6JVFnadoEEugneDf3UblPZnOzov43Q
+mode: simple
+ignored_config_entities:
+  - 'social_auth_facebook.settings:client_id'
+  - 'social_auth_facebook.settings:client_secret'
+  - 'social_auth_github.settings:client_id'
+  - 'social_auth_github.settings:client_secret'
+  - 'social_auth_google.settings:client_id'
+  - 'social_auth_google.settings:client_secret'

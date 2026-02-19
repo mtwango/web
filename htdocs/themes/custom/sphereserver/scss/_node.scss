@@ -44,6 +44,46 @@
   }
 }
 
+// User login / register / reset password pages.
+.page-user {
+  &-login,
+  &-password,
+  &-register {
+    background-color: var(--sphere-footer-background);
+    background-image: url("/themes/custom/sphereserver/img/footer_noise.webp");
+    background-repeat: repeat;
+
+    .layout-main-wrapper > .container {
+      margin-top: 4rem;
+
+      @media (max-width: 600px) {
+        margin-top: 0;
+      }
+    }
+
+    .layout-main-wrapper > .container,
+    .featured-bottom > .container {
+      max-width: 600px;
+      background-color: var(--sphere-white-color);
+
+      .form-actions {
+        text-align: center;
+      }
+      .button {
+        width: 100%;
+        max-width: 200px;
+      }
+      .main-content {
+        padding: 3.5rem 3.5rem 0;
+      }
+      .region-featured-bottom-first {
+        padding: 0 3.5rem 3.5rem;
+        text-align: center;
+      }
+    }
+  }
+}
+
 // Triggers.
 .node--type-trigger {
   h2,

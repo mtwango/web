@@ -2,6 +2,7 @@
 
 footer {
   &.site-footer {
+    margin-top: 2rem;
     background-color: var(--sphere-footer-background);
     background-image: url("/themes/custom/sphereserver/img/footer_noise.webp");
     background-repeat: repeat;
@@ -73,6 +74,10 @@ footer {
       .site-footer__bottom {
         margin-top: 0;
       }
+    }
+
+    @media (min-width: 768px) {
+      margin-top: 5rem;
     }
   }
 }
