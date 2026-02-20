@@ -4,3 +4,15 @@
 @use "components/footer";
 @use "components/tables";
 @use "components/buttons";
+
+// Overwrite roboto styles from parent theme.
+h3,
+h3 a {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+h6,
+.h6 {
+  font-size: 1.1rem;
+}
