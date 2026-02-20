@@ -1,22 +1,22 @@
-uuid: e51ba171-a030-42e8-96ed-30795b74b9e2
+uuid: 43575369-966d-487a-9a8e-47a14f39c61a
 langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.footer
+    - system.menu.account
   module:
     - system
   theme:
     - sphereserver
-id: sphereserver_footer
+id: sphereserver_useraccountmenu
 theme: sphereserver
 region: footer_second
-weight: -4
+weight: 0
 provider: null
-plugin: 'system_menu_block:footer'
+plugin: 'system_menu_block:account'
 settings:
-  id: 'system_menu_block:footer'
-  label: Footer
+  id: 'system_menu_block:account'
+  label: 'Links + User account'
   label_display: '0'
   provider: system
   level: 1
