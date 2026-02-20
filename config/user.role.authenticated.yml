@@ -2,8 +2,15 @@ uuid: cc0ba279-dd1c-4061-a1a0-7fb58fb09ffb
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.full_html
+    - media.type.image
   module:
+    - contextual
+    - file
+    - filter
     - media
+    - node
     - social_auth
     - system
 _core:
@@ -14,5 +21,16 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'access contextual links'
+  - 'cancel account'
+  - 'change own username'
+  - 'delete media'
+  - 'delete own files'
+  - 'delete own image media'
   - 'delete own social auth profile'
+  - 'edit own image media'
+  - 'update media'
+  - 'use text format full_html'
   - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
