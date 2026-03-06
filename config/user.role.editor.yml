@@ -1,0 +1,59 @@
+uuid: 110a0279-40a0-4d9b-822b-2692153a7c2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - media.type.image
+    - node.type.static_page
+    - node.type.trigger
+    - taxonomy.vocabulary.objects
+  module:
+    - filter
+    - media
+    - node
+    - paragraphs
+    - path
+    - system
+    - taxonomy
+    - toolbar
+id: editor
+label: Editor
+weight: -8
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access media overview'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'create image media'
+  - 'create media'
+  - 'create static_page content'
+  - 'create terms in objects'
+  - 'create trigger content'
+  - 'create url aliases'
+  - 'delete own static_page content'
+  - 'delete own trigger content'
+  - 'edit any image media'
+  - 'edit any static_page content'
+  - 'edit any trigger content'
+  - 'edit terms in objects'
+  - 'revert all revisions'
+  - 'revert all taxonomy revisions'
+  - 'revert static_page revisions'
+  - 'revert term revisions in objects'
+  - 'revert trigger revisions'
+  - 'update any media'
+  - 'use text format full_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view all taxonomy revisions'
+  - 'view any image media revisions'
+  - 'view static_page revisions'
+  - 'view term revisions in objects'
+  - 'view the administration theme'
+  - 'view trigger revisions'
+  - 'view unpublished paragraphs'
+  - 'view vocabulary labels'
