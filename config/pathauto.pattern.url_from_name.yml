@@ -2,17 +2,18 @@ uuid: 5237cbb8-db18-4205-bf2f-8a0654ebd400
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.static_page
   module:
     - node
 id: url_from_name
 label: 'URL from name'
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: '/[node:title]'
 selection_criteria:
   b35f79de-9e25-4b1b-98ce-05ee0f4d3463:
     id: 'entity_bundle:node'
     negate: false
-    uuid: b35f79de-9e25-4b1b-98ce-05ee0f4d3463
     context_mapping:
       node: node
     bundles:
