@@ -2,6 +2,8 @@ uuid: 984ee237-38ef-4411-9c18-3c60e847c62f
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.trigger
   module:
     - node
 id: triggers
@@ -12,7 +14,6 @@ selection_criteria:
   be0a4a7f-7dd8-4f71-8e4e-ce4fb0777eab:
     id: 'entity_bundle:node'
     negate: false
-    uuid: be0a4a7f-7dd8-4f71-8e4e-ce4fb0777eab
     context_mapping:
       node: node
     bundles:
