@@ -134,6 +134,9 @@
             ]
         },
         "patches": {
+            "drupal/core": {
+                "Unable to save list (integer) field if 0 is used as value and field has data (#3534125)": "https://git.drupalcode.org/project/drupal/-/merge_requests/12623.patch"
+            },
             "drupal/social_media_links": {
                 "Add Discord and Twitch fields (#3467542)": "https://git.drupalcode.org/project/social_media_links/-/merge_requests/52.patch"
             }
