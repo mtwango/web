@@ -27,9 +27,9 @@
         "cweagans/composer-patches": "^2.0",
         "drupal/admin_toolbar": "^3.6",
         "drupal/antibot": "^2.0",
-        "drupal/better_exposed_filters": "^7.1",
+        "drupal/better_exposed_filters": "^7.2",
         "drupal/bootstrap_barrio": "^5.5",
-        "drupal/cache_control_override": "^2.0",
+        "drupal/cache_control_override": "^2.1",
         "drupal/config_ignore": "^3.4",
         "drupal/core-composer-scaffold": "^11.4",
         "drupal/core-recommended": "^11.4",
@@ -38,7 +38,7 @@
         "drupal/manage_display": "^3.0",
         "drupal/metatag": "^2.2",
         "drupal/paragraphs": "^1.23",
-        "drupal/pathauto": "^1.15",
+        "drupal/pathauto": "^1.16",
         "drupal/redirect": "^1.13",
         "drupal/robotstxt": "^1.6",
         "drupal/simple_sitemap": "^4.2",
@@ -58,8 +58,8 @@
         "drupal/masquerade": "^2.2",
         "phpcompatibility/php-compatibility": "dev-develop",
         "phpmd/phpmd": "^2.15",
-        "phpstan/phpstan-strict-rules": "^2.0",
-        "vimeo/psalm": "^6.18"
+        "phpstan/phpstan-strict-rules": "^2.1",
+        "vimeo/psalm": "^6.21"
     },
     "conflict": {
         "drupal/drupal": "*"
