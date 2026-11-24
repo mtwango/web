@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: 0
-      label: In
+      label: R
     -
       value: 1
-      label: Out
+      label: W
   allowed_values_function: ''
 module: options
 locked: false

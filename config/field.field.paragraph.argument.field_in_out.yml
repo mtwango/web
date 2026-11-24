@@ -11,7 +11,7 @@ id: paragraph.argument.field_in_out
 field_name: field_in_out
 entity_type: paragraph
 bundle: argument
-label: In/Out
+label: Read/Write
 description: ''
 required: true
 translatable: false
