@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.trigger.body
     - field.field.node.trigger.field_arguments
     - field.field.node.trigger.field_entity
+    - field.field.node.trigger.field_note
     - field.field.node.trigger.field_references
     - field.field.node.trigger.field_returns
     - node.type.trigger
@@ -59,6 +60,14 @@ content:
     weight: 8
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_note:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
     third_party_settings: {  }
   field_references:
     type: paragraphs

@@ -1,0 +1,24 @@
+uuid: 4da281ce-d2b4-4a2b-a0d8-3b3eb6f64e80
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note
+    - filter.format.full_html
+    - node.type.trigger
+  module:
+    - text
+id: node.trigger.field_note
+field_name: field_note
+entity_type: node
+bundle: trigger
+label: Notes
+description: 'Any additional information or notes.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long
