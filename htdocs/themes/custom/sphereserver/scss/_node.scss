@@ -162,7 +162,26 @@
           &--name-field-name,
           &--name-field-value,
           &--name-field-in-out {
-            min-width: 75px;
+            min-width: 110px;
+          }
+
+          // Display values next to each other.
+          &--name-field-in-out {
+            .field__items {
+              flex-direction: row;
+              padding: 0.5rem;
+            }
+            .field__item {
+              padding: 0;
+              background-color: transparent;
+
+              // Display separator.
+              + .field__item {
+                &::before {
+                  content: "/";
+                }
+              }
+            }
           }
         }
       }
