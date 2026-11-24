@@ -1,6 +1,18 @@
 {
-    "_hash": "49a1af1a3f021de9fcc31d1e877db379982233723df7c746a1f25db276fb3a2f",
+    "_hash": "e94d9f4ceade189b3a80514a65be1da74315b14ab37c37efb012c5e33c69b6ae",
     "patches": {
+        "drupal/core": [
+            {
+                "package": "drupal/core",
+                "description": "Unable to save list (integer) field if 0 is used as value and field has data (#3534125)",
+                "url": "https://git.drupalcode.org/project/drupal/-/merge_requests/12623.patch",
+                "sha256": "e2333e42db1a8e69d91252d02c92fe9c1f46f253869e8f1b991f5ad50a3fa750",
+                "depth": 2,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
         "drupal/social_media_links": [
             {
                 "package": "drupal/social_media_links",

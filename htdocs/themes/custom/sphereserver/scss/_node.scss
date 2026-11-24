@@ -106,7 +106,7 @@
 
       &__item a {
         margin-right: 0.5rem;
-        padding: 0.5rem;
+        padding: 0.35rem 0.8rem;
         text-decoration: none;
         color: var(--sphere-white-color);
         border: 1px solid var(--sphere-main-color);
@@ -123,7 +123,7 @@
 
   // Display paragraph references as "table".
   .field--type-entity-reference-revisions {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 
     .field__items {
       display: inline-flex;
